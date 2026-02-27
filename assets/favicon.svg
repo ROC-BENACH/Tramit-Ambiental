@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tràmit Ambiental">
+  <defs>
+    <linearGradient id="g" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E7D32"/>
+      <stop offset="1" stop-color="#81C784"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#g)"/>
+  <path d="M47 18C40 19 35 22 31 28C27 35 27 43 31 50C25 49 21 46 18 41C14 34 16 26 22 22C28 17 37 16 47 18Z" fill="rgba(255,255,255,0.92)"/>
+  <path d="M22 44C30 40 38 33 44 24" stroke="#1B5E20" stroke-width="4" stroke-linecap="round"/>
+</svg>

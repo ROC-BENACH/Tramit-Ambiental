@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tramit Ambiental - Consultoria i Gestió</title>
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="images/logoTramitAmbiental.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar__content">
+                <span>Tel. 9778413</span>
+                <span>info@tramitambiental.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="images/logo_color.png" class="site-logo" alt="" aria-hidden="true">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inici</a></li>
+                <li><a href="#about">Qui Som</a></li>
+                <li><a href="#servicios">Serveis</a></li>
+                <li><a href="#projects">Projectes</a></li>
+                <li><a href="#contacto" class="btn-contact">Contactar</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Zoom Effect -->
+    <div class="scroll-container">
+        <section id="hero" class="hero-zoom">
+            <div class="zoom-layer-bg"></div>
+            <div class="zoom-layer-text">
+                <h1>GESTIÓ AMBIENTAL <br><span>DEL TERRITORI</span></h1>
+                <p>“Oferim solucions ambientals pràctiques i simples, amb proximitat, empatia i compromís.<br>T’acompanyem amb coneixement i experiència en cada pas.”</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Sol·licitar Pressupost</a>
+                    <a href="#servicios" class="btn btn-secondary">Veure Serveis</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="about" class="section home-about bg-light">
+        <div class="container">
+            <div class="section-title hidden-element">
+                <h2>Sobre Nosaltres</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-center hidden-element">
+                <p>Som un equip de persones apassionades del territori que des de fa molts anys treballem per assessorar i donar solucions a particulars, administracions i empreses que volen desenvolupar projectes en el sòl no urbanitzable.</p>
+                <p>Ens agrada treballar junts, tot contraposant la passió amb el rigor i els condicionants legals i ambientals amb la coherència i facilitant la bona execució dels projectes, amb un contacte constant amb els seus impulsors.</p>
+                <p>L’experiència acumulada al llarg de més de 20 anys en l’estudi i gestió del territori ens ha portat a la necessitat de formalitzar la nostra relació professional per oferir un servei més integrat i específic per a cada necessitat.</p>
+                <div class="about-actions">
+                    <a href="equip.html" class="btn btn-primary">Coneix el nostre equip</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section services-classic">
+        <div class="container">
+            <div class="section-title hidden-element">
+                <h2>Els Nostres Serveis</h2>
+                <div class="underline"></div>
+                <p>Oferim serveis especialitzats en tres grans àrees.</p>
+            </div>
+
+            <div class="services-classic-grid hidden-element">
+                <article class="service-classic-card">
+                    <div class="service-classic-media">
+                        <img src="images/DSC_2090.JPG" alt="Ordenació del territori" loading="lazy">
+                    </div>
+                    <button class="service-classic-toggle" type="button" aria-expanded="false">
+                        <span class="service-classic-title">ORDENACIÓ DEL TERRITORI<br>I TRAMITACIÓ URBANÍSTICA</span>
+                        <i class="fa-solid fa-chevron-down service-classic-arrow" aria-hidden="true"></i>
+                    </button>
+                    <ul class="service-classic-list" aria-hidden="true">
+                        <li>Avaluació Ambiental Estratègica de figures de planejament territori i urbanístic</li>
+                        <li>Estudis d’Avaluació de la Mobilitat Generada</li>
+                        <li>Estudis d’Impacte i Integració Paisatgística</li>
+                        <li>Anàlisi d’Afectacions Agràries</li>
+                        <li>Estudi i ordenació del Sòl No Urbanitzable</li>
+                        <li>Avaluació d’Impacte Ambiental de Projectes</li>
+                    </ul>
+                </article>
+
+                <article class="service-classic-card">
+                    <div class="service-classic-media">
+                        <img src="images/control_ambiental.jpg" alt="Vigilància i control ambiental" loading="lazy">
+                    </div>
+                    <button class="service-classic-toggle" type="button" aria-expanded="false">
+                        <span class="service-classic-title">VIGILÀNCIA<br>I CONTROL AMBIENTAL</span>
+                        <i class="fa-solid fa-chevron-down service-classic-arrow" aria-hidden="true"></i>
+                    </button>
+                    <ul class="service-classic-list" aria-hidden="true">
+                        <li>Control ambiental d’obres en espais naturals</li>
+                        <li>Control ambiental d’obres en espais urbans</li>
+                        <li>Control ambiental de tasques forestals</li>
+                        <li>Plans de vigilància ambiental</li>
+                    </ul>
+                </article>
+
+                <article class="service-classic-card">
+                    <div class="service-classic-media">
+                        <img src="images/abeja.jpg" alt="Biodiversitat i territori" loading="lazy">
+                    </div>
+                    <button class="service-classic-toggle" type="button" aria-expanded="false">
+                        <span class="service-classic-title">BIODIVERSITAT<br>I DIVULGACIÓ</span>
+                        <i class="fa-solid fa-chevron-down service-classic-arrow" aria-hidden="true"></i>
+                    </button>
+                    <ul class="service-classic-list" aria-hidden="true">
+                        <li>Estudis de biodiversitat</li>
+                        <li>Estudi i seguiment de poblacions de fauna i flora</li>
+                        <li>Estudi d’espais d’interès natural</li>
+                        <li>Disseny de mesures ambientals</li>
+                        <li>Disseny de programes de conservació de la biodiversitat</li>
+                        <li>Disseny d’itineraris de natura en espais naturals i urbans</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section home-projects parallax-section" data-parallax="0.06">
+        <div class="container">
+            <div class="section-title hidden-element">
+                <h2>Projectes</h2>
+                <div class="underline"></div>
+                <p>CONEIX ALGUNS DELS PROJECTES EN ELS QUE HEM TREBALLAT.</p>
+            </div>
+
+            <div class="projects-cta hidden-element">
+                <a href="projectes.html" class="btn btn-primary">Coneix alguns dels projectes</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-band home-cta-band home-projects-banner">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-media cta-media-single">
+                    <img src="images/Destacat1.jpg" alt="Projecte destacat" loading="lazy">
+                </div>
+                <div class="cta-copy">
+                    <h2>TENS UN PROJECTE ENTRE MANS?</h2>
+                    <p>Et podem ajudar</p>
+                    <a href="#contacto" class="btn btn-secondary">Parlem del teu projecte</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section home-contact">
+        <div class="container">
+            <div class="section-title hidden-element">
+                <h2>Contacte</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info hidden-element">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Ubicació</h4>
+                        <p>Passeig Mata 40, baixos<br>43202 Reus</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>info@tramitambiental.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Telèfon</h4>
+                        <p>9778413</p>
+                    </div>
+                </div>
+                <div class="contact-form hidden-element">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Assumpte" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Missatge" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Missatge</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="home-footer">
+        <div class="container">
+            <div class="footer-content footer-grid">
+                <div class="footer-logo">
+                    <a href="#hero">
+                        <img src="images/logo_blanco.png" class="footer-logo-white" alt="Tramit Ambiental">
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h4>On Som:</h4>
+                    <p>Passeig Mata 40, baixos<br>43202 Reus</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacte:</h4>
+                    <p>info@tramitambiental.com<br>Telèfon 9778413</p>
+                </div>
+                <div class="footer-links footer-col">
+                    <a href="avis-legal.html">Avís Legal</a>
+                    <a href="politica-privacitat.html">Política de Privacitat</a>
+                    <a href="cookies.html">Cookies</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Tràmit ambiental, S.C.P. 2026. Tots els drets reservats</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" data-cookie-banner hidden>
+        <div class="cookie-banner__inner">
+            <p>Fem servir cookies tècniques i emmagatzematge local per al funcionament bàsic i per recordar la teva elecció. Més info a la <a href="cookies.html">Política de Cookies</a>.</p>
+            <div class="cookie-banner__actions">
+                <button class="cookie-btn cookie-btn--ghost" type="button" data-cookie-reject>Rebutjar</button>
+                <button class="cookie-btn cookie-btn--primary" type="button" data-cookie-accept>Acceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
